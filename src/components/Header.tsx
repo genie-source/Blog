@@ -16,10 +16,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="social-links">
-                    <a href="#github">github</a>
-                    <a href="#linkedin">linkedIn</a>
+                    <a href="https://github.com/genie-source">github</a>
                     <a href="#resume">resume</a>
-                    <a href="#legacy">legacy blogs</a>
+                    <a href="#linkedin">linkedIn</a>
             </div>
         </header>
 

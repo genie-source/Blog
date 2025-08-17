@@ -326,11 +326,11 @@ footer {
 
 .social-links {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    gap: 12px;
     margin-bottom: 40px;
     flex-wrap: wrap;
     margin: 20px 0 0 0;
+    padding: 0 24px;
 }
 
 .social-links a {
@@ -410,11 +410,4 @@ html {
 /* Selection */
 ::selection {
     background: rgba(35, 131, 226, 0.28);
-}
-
-/* Focus states */
-a:focus,
-button:focus {
-    outline: 2px solid rgb(35, 131, 226);
-    outline-offset: 1px;
 }
