@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 * {
     margin: 0;
@@ -75,24 +76,23 @@ nav {
     color: rgb(55, 53, 47);
 }
 
-.hero {
+.hero_  {
     text-align: left;
 }
 
-.hero h1 {
-    font-size: 48px;
+.hero_ h2 {
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
     color: rgb(55, 53, 47);
     line-height: 1.2;
 }
 
-.hero p {
+.hero_ p {
     font-size: 18px;
     color: rgb(120, 119, 116);
     font-weight: 400;
 }
-
 /* Main Content */
 .main-content {
     display: grid;
@@ -383,11 +383,11 @@ footer {
         gap: 16px;
     }
 
-    .hero h1 {
+    .hero_ h1 {
         font-size: 32px;
     }
 
-    .hero p {
+    .hero_p{
         font-size: 16px;
     }
 
