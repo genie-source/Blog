@@ -1,12 +1,18 @@
+import PinnedPost from "../components/PinnedPost"
 import Post from "../components/Post"
 import SideBar from "../components/SideBar"
 
 const Home = () =>{
     return(
         <div className="main-content">
-            <main className="posts">
+            <div className="pinned-posts">
+                <PinnedPost />
+                <PinnedPost />
+            </div>
+            <div className="posts">
                 <Post />
-            </main>
+                <Post />
+            </div>
             <SideBar />
         </div>
     )

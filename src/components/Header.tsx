@@ -15,7 +15,14 @@ const Header = () => {
                     <p>코딩과 일상을 기록하는 공간입니다</p>
                 </div>
             </div>
+            <div className="social-links">
+                    <a href="#github">github</a>
+                    <a href="#linkedin">linkedIn</a>
+                    <a href="#resume">resume</a>
+                    <a href="#legacy">legacy blogs</a>
+            </div>
         </header>
+
     )
 }
 
